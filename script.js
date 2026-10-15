@@ -6,63 +6,72 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual cenário você prefere para as cidades do futuro?:" [
+        enunciado: "Olhando para o seu futuro pós-ensino médio" , 
+        alternativas: [
             {
-                texto: "Prédios totalmente integrados com plantas, hortas nas coberturas e ruas tomadas por árvores",
-                afirmacao: "afirmacao"
+                texto: "Se eu tivesse que escolher duas faculdades para o futuro, qual seria?",
+                afirmacao:[
+                    "Psicologia",
+                    "Biomedicina",
+                ],
             },
             {
-                texto: "Arquitetura futurista minimalista com grandes áreas de parques tecnológicos isolados",
-                afirmacao: "afirmacao"
+                texto: "",
+                afirmacao: [
+                     "afirmacao"
+                ]
+                    
             }           
             
         ]
     },
     {
-        enunciado: "Quando se trata da nossa alimentação nas próximas décadas, qual caminho você escolheria?:" [
+        enunciado: "Quando se trata da nossa alimentacao nas proximas decadas, qual caminho voce escolheria?:" [
             {
-                texto:"Consumir majoritariamente alimentos orgânicos cultivados em hortas comunitárias locais:"afirmacao"
+                texto:"Consumir majoritariamente alimentos organicos cultivados em hortas comunitarias locais"
+                afirmacao:"afirmacao"
             },
             {
-                texto: "Adotar alimentos inovadores produzidos em laboratório com alta eficiência e zero desmatamento:"afirmacao"
+                texto: "Adotar alimentos inovadores produzidos em laboratorio com alta eficiencia e zero desmatamento",
+                afirmacao:"afirmacao"
             }
         ]
     },
     {
-        enunciado: "Como você prefere que a humanidade proteja as grandes florestas?:"[
+        enunciado: "Como voce prefere que a humanidade proteja as grandes florestas?:"[
             {
-                texto:"Criando reservas totalmente intocadas onde a presença humana é proibida para garantir o descanso da natureza.",
+                texto:"Criando reservas totalmente intocadas onde a presenca humana e proibida para garantir o descanso da natureza.",
                 afirmacao:"afirmacao"
             },
             {
-                texto:"Abrindo espaços controlados para ecoturismo e imersão para que as pessoas valorizem a fauna e a flora de perto",
-                afirmacao:"afirmacao"
-            }
-            
-        ]
-    },
-    {
-        enunciado: "Qual será a sua maior despesa no futuro?:" [
-            {
-                texto:"A manutenção do seu robô mordomo que vive julgando as suas escolhas de vida",
-                afirmacao:"afirmacao"
-            },
-            {
-                texto:"O café gelado gourmet que custará o equivalente a meio salário mínimo",
+                texto:"Abrindo espacos controlados para ecoturismo e imersao para que as pessoas valorizem a fauna e a flora de perto",
                 afirmacao:"afirmacao"
             }
             
         ]
     },
     {
-        enunciado: " Qual ambiente sonoro você escolheria para a sua rotina no futuro?",
+        enunciado: "Qual sera a sua maior despesa no futuro?:" [
+            {
+                texto:"A manutencao do seu robo mordomo que vive julgando as suas escolhas de vida",
+                afirmacao:"afirmacao"
+            },
+            {
+                texto:"O cafe gelado gourmet que custara o equivalente a meio salario minimo",
+                afirmacao:"afirmacao"
+            }
+            
+        ]
+    },
+    {
+        enunciado: " Qual ambiente sonoro voce escolheria para a sua rotina no futuro?",
         alternativas: [
             {
-                texto: "O som constante do vento nas árvores e o canto dos pássaros em um bairro arborizado",
+                texto: "O som constante do vento nas arvores e o canto dos passaros em um bairro arborizado",
                 afirmacao:"afirmacao"
             },
             {
-                texto: "O silêncio absoluto de uma casa inteligente integrada a um ecossistema interno sustentável e climatizado",
+                texto: "O silencio absoluto de uma casa inteligente integrada a um ecossistema interno sustentavel e climatizado",
                 afirmacao:"afirmacao"
             }
             
